@@ -1,6 +1,4 @@
 import { useState } from 'react'
-import stockMarketImg from '../assets/images/stock-market.svg'
-import tradingIcon from '../assets/images/trading-icon.svg'
 import '../styles/SecondaryMarkets.css'
 
 const SecondaryMarkets = () => {
@@ -65,12 +63,12 @@ const SecondaryMarkets = () => {
       <header className="hero-section">
         <div className="container">
           <div className="hero-content">
-            <img src={tradingIcon} alt="Trading Icon" className="hero-icon" />
+            <img src="/secondaryMarkets/images/trading-icon.svg" alt="Trading Icon" className="hero-icon" />
             <h1>Secondary Markets</h1>
             <p className="hero-subtitle">
               Where existing securities change hands between investors
             </p>
-            <img src={stockMarketImg} alt="Stock Market Chart" className="hero-chart" />
+            <img src="/secondaryMarkets/images/stock-market.svg" alt="Stock Market Chart" className="hero-chart" />
           </div>
         </div>
       </header>
